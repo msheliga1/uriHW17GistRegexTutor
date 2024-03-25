@@ -4,8 +4,8 @@ Michael Sheliga - This repo is for the University of Richmond (URI) coding bootc
 Starter Code from: https://github.com/coding-boot-camp/bug-free-goggles
 
 ## Link to Repo, Screenshot(s) and/or Video(s)  
-Link to GitHub Repo: https://github.com/msheliga1/uriHW13ORMEComm     
-Link to Video on Google Drive: https://drive.google.com/file/d/15i1SyN7UNKhFnAYD3HnOhx8d3yip52xh/view   
+Link to GitHub Repo: https://github.com/msheliga1/uriHW17GistRegexTutor      
+<!-- Link to Video on Google Drive: https://drive.google.com/file/d/15i1SyN7UNKhFnAYD3HnOhx8d3yip52xh/view  -->  
 <!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen --->  
 <!-- Link to logo.svg: https://github.com/msheliga1/uriHW10OOPLogoGenerator/blob/main/examples/logo.svg  --->  
 <!-- Link to Video on GitHub [Link](./examples/hw10LogoGenSheliga.webm)   Note that this video may be too large to play in GitHub, so you will need to download and play from your computer. WindowsMediaPlayer worked for me.  -->
@@ -22,8 +22,9 @@ Use node, SQL and sequalize to create a back-end for an e-commerce site.
     Create Repo (github, repositories => New)   
         - Dont Make this a shared repo.  
     Clone the entire starter repo  
-        -- Create a new, totally blank repo in GitHub  
-        -- Clone the starter repo (under the hwXX directory) to your local machine  
+        -- Create a new, TOTALLY blank repo in GitHub  (no readme. It will screw things very badly!)
+        -- Clone the starter repo (under the hwXX directory) to your local machine
+        -- Rename the starter repo if you wish.
         -- Set the remote path: git remote add <ori> <HTTPS path to remove>   
             -- Be 100% sure NOT to use the SSH link. Use the HTTPS lank!  
         -- Push the local repo to gitHub: git push ori main   
@@ -71,37 +72,14 @@ Use node, SQL and sequalize to create a back-end for an e-commerce site.
 
 ## Acceptance Criteria   
 -----------------------   
-SQL DB with categories, products and tags.   
+Tutorial with buttons and description using GIST.   
 
-Express.js API - add my db name, username, and password to environment variables
-Enter schema and seed commands
-    - mysql login, source db\schema.sql
-    - npm run seed OR node seeds\index.js (from Develop dir using cmd tool)
-Connect to a database using Sequelize  
-
-Invoke the application => server is started and the Sequelize models are synced to the MySQL database
-Insomnia Core API GET routes for all categories, products, or tags - data displayed in a formatted JSON
-Insomnia Core API GET by ID routes for one category, product, or tag - data displayed in a formatted JSON
-Insomnia Core API POST, PUT, and DELETE routes - successfully create, update, and delete db data 
-  
-Tables  - It took me over a (EF(F$)) ING hour to figure out that YOU intend ME to create these.   
-Why can't you get someone who can create clear, complete, concise directions. IT'S LIKE THIS EVERY HW!  
--------------  
-Category
-    id Integer     NOT null    primary key    auto increment
-    category_name    String    NOT null
-Product
-    id    Integer    NOT null    primary key    auto increment
-    product_name    String    NOT null
-    price    Decimal    NOT null   Validates that the value is a decimal
-    stock    Integer    NOT null    default value 10    Validates value is numeric
-    category_id    Integer    References the category model's id
-Tag
-    id    Integer    Doesn't allow null values    Set as primary key    Uses auto increment
-    tag_name    String
-ProductTag
-    id    Integer    Doesn't allow null values    Set as primary key    Uses auto increment
-    product_id    Integer    References the product model's id
-    tag_id    Integer    References the tag model's id
-
+Regex Tutorial
+open the tutorial => see 
+    a descriptive title and introductory paragraph explaining the purpose of the tutorial, 
+    a summary describing the regex featured in the tutorial, 
+    a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
+click on the links in the table of contents => taken to the corresponding sections of the tutorial
+Each section of the tutorial: Has a detailed explanation of what a specific component of the regex does
+End of the tutorial: has a section about the author and a link to the author’s GitHub profile
 

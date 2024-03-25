@@ -56,23 +56,23 @@ Use node, SQL and sequalize to create a back-end for an e-commerce site.
     Insert Screencastify (Chrome) Video and/or Screenshot X2 of deployment into readme file. 
   
 ## Tools and Technologies Used   
-    Github - Branches not needed, but could use.  
-        - GitIgnore to keep NPM libraries out of gitHub repo.  
-    NPM - Node Package Manager  (package.json)
-        fs - fileSystem    
-        inquirer - Used for prompts (text, list, checkboxes, editor, etc.)   
-        dotenv - for secure db password
-        mysql2 - dont forget the 2
-        express - ORM
-        sequelize - avoid rewriting common SQL queries
-    mySQL - install is from the DEVIL!
-    SQL - Standard Query Language 
-    Insomnia - Used for testing routes
-    Agile - Try to assign a little work at a time.   
+    Github - Branches not needed, but could use.   
+        - GitIgnore to keep NPM libraries out of gitHub repo.   
+    GIST - A totally foreign way of sharing info such as:   
+        - code snippets  
+        - tutorials   
+        - directions : WOULDN"T DIRECTIONS FOR THIS PROJECT BE GREAT.   
+        - other public or private info of your choosing.  
+    Location: My gists are at: https://gist.github.com/msheliga1 . 
+        - If there is an easy way to go from your github home page to 
+            your gists, NOT A ****ing person thought to include this info ANYWHERE (easy to find.)
+        - Yet another thing neither GitHub nor URI tells you!!!   
+    Regex - Regular Expressions are a commoon CS way of searching.   
+ 
 
 ## Acceptance Criteria   
 -----------------------   
-Tutorial with buttons and description using GIST.   
+Tutorial with TOC, links and descriptions, using GIST.   
 
 Regex Tutorial
 open the tutorial => see 

@@ -1,10 +1,12 @@
 # Regular Expression Gist Tutorial
 uri bootcamp HW 17 - Regular Expression Gist Tutorial - MJS 3.24.24   
 Michael Sheliga - This repo is for the University of Richmond (URI) coding bootcamp.  
-Starter Code from: https://github.com/coding-boot-camp/bug-free-goggles
+Starter Code from: https://github.com/coding-boot-camp/bug-free-goggles 
 
 ## Link to Repo, Screenshot(s) and/or Video(s)  
 Link to GitHub Repo: https://github.com/msheliga1/uriHW17GistRegexTutor      
+Link to Regex Gist: https://gist.github.com/msheliga1/7a1b4908f5940c576e3cdca16022e8de  
+Base Link to Gists: https://gist.github.com/  
 <!-- Link to Video on Google Drive: https://drive.google.com/file/d/15i1SyN7UNKhFnAYD3HnOhx8d3yip52xh/view  -->  
 <!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen --->  
 <!-- Link to logo.svg: https://github.com/msheliga1/uriHW10OOPLogoGenerator/blob/main/examples/logo.svg  --->  
@@ -13,7 +15,7 @@ Link to GitHub Repo: https://github.com/msheliga1/uriHW17GistRegexTutor
 [Link to Acceptance Criteria ](#acceptance-criteria)   
 
 ## Project Goals     
-Use node, SQL and sequalize to create a back-end for an e-commerce site.  
+Write a GIST tutorial on Regular Expressions. 
 
 ========================================================   
 ## Technical Project Details    
